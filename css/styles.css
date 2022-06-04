@@ -1,96 +1,57 @@
-
-.row-header{
-    margin:0px auto;
-    padding:0px;
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
 }
-
 .row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
-    
-.footer{
-    background-color: #D1C4E9;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px;
 }
-
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background: #9575CD ;
-    color:floralwhite;
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575CD;
+  color: floralwhite;
 }
-    	
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
 }
-
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
-
 .navbar-dark {
-     background-color: #512DA8;
+  background-color: #512DA8;
 }
-
-.breadcrumb-item + .breadcrumb-item::before {
-    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxwYXRoIGQ9Ik0yLjUgMEwxIDEuNSAzLjUgNCAxIDYuNSAyLjUgOGw0LTQtNC00eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+) !important;
- }
-
- /* .border {
-    padding: 10px 20px;
-    text-align: left;
- }
-
- #formNumber{
-    background-color: none;
-    padding: 20px;
-    padding-right: 45px;
- }
-
- #title{
-    background-color: #fdc02f;
-    color: white;
- } */
-
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
 .carousel {
-    background:#512DA8;
+  background: #512DA8;
 }
-.carousel-item {
+.carousel .carousel-item {
   height: 300px;
 }
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
 }
-
-/* .carousel-caption{
-    padding-bottom: 60px;
-    text-align: center;
-}
-
-.carousel-caption p{
-    padding-left: 150px;
-    text-align: center;
-}
-
-.carousel-caption h2 h4{
-    margin-left: 100px;
-} */
-
 #carouselButton {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
 }
-
-
